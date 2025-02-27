@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+    background-color: #002f6c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: #f4a261;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #012b4e;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.exchange-box {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.exchange-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+/* Benefits Section */
+.benefits {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.benefit-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #002f6c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.newsletter {
+    text-align: right;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 5px;
+}
